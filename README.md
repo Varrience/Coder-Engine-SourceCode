@@ -22,3 +22,6 @@ Our discord server: https://discord.gg/7ZyxZfMN7p
 
 # Version
 Version: 2.0
+
+New ports added! Source Code now comes in ZIP, RAR, and 7z files!
+(The full version is a .zip)
