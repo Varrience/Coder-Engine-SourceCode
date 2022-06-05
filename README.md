@@ -19,3 +19,6 @@ Admins: Redandsoggy
 
 # Contacts
 Our discord server: https://discord.gg/7ZyxZfMN7p
+
+# Version
+Version: 2.0
