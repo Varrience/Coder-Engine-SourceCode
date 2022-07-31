@@ -28,5 +28,6 @@ You can find the Translator in: Coder Engine > bin > Code > Chart Translators > 
 
 # How to Mod
 
-Find the full instructions in Coder Engine > bin > Code > **Modding Instructions** 
+Find the full instructions in Coder Engine > bin > Code > **Modding Instructions.** 
+
 However, its not there yet because the engine is not finished.
