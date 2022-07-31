@@ -23,6 +23,10 @@ Our discord server: https://discord.gg/7ZyxZfMN7p
 # Version
 Version: 3 (PRERELEASE)
 
-New Chart Translator added! It can convert RoBeats charts to Coder Engine charts! (ITS ONLY IN THE "Coder Engine FULL.zip" FiLE!)
+New Chart Translator added! It can convert RoBeats charts to Coder Engine charts! (ITS ONLY IN THE "Coder Engine FULL.zip" FILE!)
 You can find the Translator in: Coder Engine > bin > Code > Chart Translators > **RoBeats_to_Chart.js**
 
+# How to Mod
+
+Find the full instructions in Coder Engine > bin > Code > **Modding Instructions** 
+However, its not there yet because the engine is not finished.
