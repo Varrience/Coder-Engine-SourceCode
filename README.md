@@ -21,7 +21,8 @@ Admins: Redandsoggy
 Our discord server: https://discord.gg/7ZyxZfMN7p
 
 # Version
-Version: 2.0
+Version: 3 (PRERELEASE)
 
-New ports added! Source Code now comes in ZIP, RAR, and 7z files!
-(The full version is a .zip)
+New Chart Translator added! It can convert RoBeats charts to Coder Engine charts! (ITS ONLY IN THE "Coder Engine FULL.zip" FiLE!)
+You can find the Translator in: Coder Engine > bin > Code > Chart Translators > **RoBeats_to_Chart.js**
+
