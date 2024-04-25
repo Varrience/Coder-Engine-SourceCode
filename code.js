@@ -34,28 +34,28 @@ window.preload = function () {
     }
 
     var CoderUtils = new (function () {
-      var URLl = window.getURL();
-      var URLPath = window.getURLPath();
-      var coderengine = "N8fMEFp65RrOCxDZUZf7e3u34xzb9RHLqgM1_1WiRXI";
-      var link = "https://studio.code.org/projects/gamelab/".concat(coderengine);
-      setTimeout(function () {
-        if (URLl.includes("view") || URLPath[3] === "view") {
-          prompt("Hello, I dont know if you are a modder, or someone who is curious to how the game works, but to exploiters, sorry to tell you, but this project barely has any keyvalues. However, you may play the game with temporarily modified stats. Also, I will warn you that playing with view/edit code menu open lags the game a TON. (Remixing is reccomended)\n\n-- MonsterYT_DaGamer");
-        }
+      // var URLl = window.getURL();
+      // var URLPath = window.getURLPath();
+      // var coderengine = "N8fMEFp65RrOCxDZUZf7e3u34xzb9RHLqgM1_1WiRXI";
+      // var link = "https://studio.code.org/projects/gamelab/".concat(coderengine);
+      // setTimeout(function () {
+      //   if (URLl.includes("view") || URLPath[3] === "view") {
+      //     prompt("Hello, I dont know if you are a modder, or someone who is curious to how the game works, but to exploiters, sorry to tell you, but this project barely has any keyvalues. However, you may play the game with temporarily modified stats. Also, I will warn you that playing with view/edit code menu open lags the game a TON. (Remixing is reccomended)\n\n-- MonsterYT_DaGamer");
+      //   }
 
-        if (URLl.includes("//edit") || URLPath[3] === "//edit") {
-          prompt("Hello, modder/exploiter. Sorry to tell you, but this project barely has any keyvalues. However, you may play the game with temporarily modified stats. But I will warn you that playing with view/edit code menu open lags the game a TON.\n\n-- MonsterYT_DaGamer");
-        }
+      //   if (URLl.includes("//edit") || URLPath[3] === "//edit") {
+      //     prompt("Hello, modder/exploiter. Sorry to tell you, but this project barely has any keyvalues. However, you may play the game with temporarily modified stats. But I will warn you that playing with view/edit code menu open lags the game a TON.\n\n-- MonsterYT_DaGamer");
+      //   }
 
-        if (URLl.includes("edit.html") || URLPath[3] === "edit.html") {
-          prompt("Hello, modder/exploiter. Sorry to tell you, but this project barely has any keyvalues. However, you may play the game with temporarily modified stats. But I will warn you that playing with view/edit code menu open lags the game a TON.\n\n-- MonsterYT_DaGamer");
-        }
+      //   if (URLl.includes("edit.html") || URLPath[3] === "edit.html") {
+      //     prompt("Hello, modder/exploiter. Sorry to tell you, but this project barely has any keyvalues. However, you may play the game with temporarily modified stats. But I will warn you that playing with view/edit code menu open lags the game a TON.\n\n-- MonsterYT_DaGamer");
+      //   }
 
-        if (URLPath[2] !== coderengine) {
-          prompt("This project is a remix of a project called Coder Engine by MonsterYT-DaGamer. You can go play the original project using the link below.\n\nMonsterYT-DaGamer is NOT responsible for any content in this project that is innapropriate, offensive, or goes against the Code.org Terms of Service.", link);
-          console.log("Hey modder! If you need help modding this, join our discord server! (there will be other alternative methods for people without discord later)");
-        }
-      }, 100);
+      //   if (URLPath[2] !== coderengine) {
+      //     prompt("This project is a remix of a project called Coder Engine by MonsterYT-DaGamer. You can go play the original project using the link below.\n\nMonsterYT-DaGamer is NOT responsible for any content in this project that is innapropriate, offensive, or goes against the Code.org Terms of Service.", link);
+      //     console.log("Hey modder! If you need help modding this, join our discord server! (there will be other alternative methods for people without discord later)");
+      //   }
+      // }, 100);
       /* 
       Description:
       Translates a FNF chart (.json file) to a CoderEngine Chart
