@@ -32,7 +32,7 @@ window.preload = function () {
         return;
       }
     }
-    
+
     var CoderUtils = new (function () {
       var URLl = window.getURL();
       var URLPath = window.getURLPath();
@@ -208,11 +208,11 @@ window.preload = function () {
         return Text;
       }());
       // makes Glyphs for people who don't know how to use constructors
-      this.createGlyph = function(x, y, letter, scale, frame, speed) {
+      this.createGlyph = function (x, y, letter, scale, frame, speed) {
         return (new Glyph(x, y, letter, scale, frame, speed));
       }
       // makes Text for people who don't know how to use constructors
-      this.createText = function(text, x, y, scale) {
+      this.createText = function (text, x, y, scale) {
         return (new Text(text, x, y, scale));
       }
       /*
@@ -344,9 +344,10 @@ window.preload = function () {
       }
       return [finished, events, bpm];
     }
-    function SaveAchievements() {
-      setKeyValue("Achievements_" + id, Achievements);
-    }
+    // saving is defunct
+    // function SaveAchievements() {
+    //   setKeyValue("Achievements_" + id, Achievements);
+    // }
     var Character = (function () {
       function Character(Anims, Position, Side, camPos, scale) {
         var c = "Idle";
@@ -904,65 +905,65 @@ window.preload = function () {
       }
     }
     var A_Config = (function () {
-      getKeyValue("Achievements_" + id, function (rec) {
-        if (rec === undefined || rec === {}) {
-          rec = {
-            TheBeginning: {
-              title: "the beginning",
-              desc: "Beat Week 1 on Hard without Missing",
-              done: false
-            },
-            NoMoreTricks: {
-              title: "no more tricks",
-              desc: "Beat Week 2 on Hard without Missing",
-              done: false
-            },
-            CallMeTheHitman: {
-              title: "call me the hitman",
-              desc: "Beat Week 3 on Hard without Missing",
-              done: false
-            },
-            LadyKiller: {
-              title: "call me the hitman",
-              desc: "Beat Week 4 on Hard without Missing",
-              done: false
-            },
-            MisslessChristmas: {
-              title: "missless christmas",
-              desc: "Beat Week 5 on Hard without Missing",
-              done: false
-            },
-            Highscore: {
-              title: "highscore",
-              desc: "Beat Week 6 on Hard without Missing",
-              done: false
-            },
-            WhataFunkinDisaster: {
-              title: "what a funkin disaster",
-              desc: "Die in a song",
-              done: false
-            },
-            Oversinger: {
-              title: "oversinger",
-              desc: "Hold a note for over 10 seconds",
-              done: false
-            },
-            TheEnd: {
-              title: "the end",
-              desc: "Beat every week",
-              done: false
-            },
-            RapGod: {
-              title: "rap god",
-              desc: "BEAT EVERY WEEK WITH ALL PERFECTS",
-              done: false
-            },
-          };
-        }
+      // getKeyValue("Achievements_" + id, function (rec) {
+      // if (rec === undefined || rec === {}) {
+      rec = {
+        TheBeginning: {
+          title: "the beginning",
+          desc: "Beat Week 1 on Hard without Missing",
+          done: false
+        },
+        NoMoreTricks: {
+          title: "no more tricks",
+          desc: "Beat Week 2 on Hard without Missing",
+          done: false
+        },
+        CallMeTheHitman: {
+          title: "call me the hitman",
+          desc: "Beat Week 3 on Hard without Missing",
+          done: false
+        },
+        LadyKiller: {
+          title: "call me the hitman",
+          desc: "Beat Week 4 on Hard without Missing",
+          done: false
+        },
+        MisslessChristmas: {
+          title: "missless christmas",
+          desc: "Beat Week 5 on Hard without Missing",
+          done: false
+        },
+        Highscore: {
+          title: "highscore",
+          desc: "Beat Week 6 on Hard without Missing",
+          done: false
+        },
+        WhataFunkinDisaster: {
+          title: "what a funkin disaster",
+          desc: "Die in a song",
+          done: false
+        },
+        Oversinger: {
+          title: "oversinger",
+          desc: "Hold a note for over 10 seconds",
+          done: false
+        },
+        TheEnd: {
+          title: "the end",
+          desc: "Beat every week",
+          done: false
+        },
+        RapGod: {
+          title: "rap god",
+          desc: "BEAT EVERY WEEK WITH ALL PERFECTS",
+          done: false
+        },
+      };
+      // }
 
-        Achievements = rec;
-        setKeyValue("Achievements_" + id, rec);
-      });
+      Achievements = rec;
+      // setKeyValue("Achievements_" + id, rec);
+      // });
 
       return A_Config;
     });
@@ -2083,7 +2084,7 @@ window.preload = function () {
     var song = "";
     var movingCam = false;
     var state = "LOADING";
-    var id = encodeURIComponent(getUserId());
+    // var id = encodeURIComponent(getUserId());
     var Settings = new S_Config();
     Settings.Scrollspeed = 1;
     var Achievements = new A_Config();
