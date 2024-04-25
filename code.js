@@ -1732,9 +1732,9 @@ window.preload = function () {
 
       play();
     }
-    CoderUtils.getWebData("https://file-rgb.jacobbutler6.repl.co/info/".concat(window.getURLPath()[2]), function (stream) {
-      window.projectData = JSON.parse(stream);
-    });
+    // CoderUtils.getWebData("https://file-rgb.jacobbutler6.repl.co/info/".concat(window.getURLPath()[2]), function (stream) {
+    //   window.projectData = JSON.parse(stream);
+    // });
     function MoveNotes(de) {
       var mov = de;
       if (Settings.Downscroll == true) {
