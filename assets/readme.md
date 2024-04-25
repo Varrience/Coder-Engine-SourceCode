@@ -1,1 +1,0 @@
-where assets are
