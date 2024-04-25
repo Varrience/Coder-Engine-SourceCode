@@ -147,7 +147,7 @@ window.preload = function () {
         return status;
       };
       // Preloads a sound.
-      window.preload = function (sound) {
+      window.preloadSound = function (sound) {
         playSound(sound, false, function () {
           stopSound(sound);
         });
@@ -1592,8 +1592,8 @@ window.preload = function () {
       for (var _ in Songs) {
         var current = Songs[_];
         if (current.Inst !== undefined && current.Vocals !== undefined) {
-          preload(current.Inst);
-          preload(current.Vocals);
+          preloadSound(current.Inst);
+          preloadSound(current.Vocals);
         }
       }
       loaded.preloadedSongs = true;
