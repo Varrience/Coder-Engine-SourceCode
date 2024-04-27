@@ -2247,10 +2247,10 @@ window.preload = function () {
         case "MENU":
           camera.x = 200;
           camera.y = 200;
+          lady.display();
           if (logo) {
             image(logo, 0, -20, 222 + Math.sin(alarm[2] / rate) * 10, 222 + Math.sin(alarm[2] / rate) * 10);
           }
-          lady.display();
           if (alarm[2] < rate / 2) {
             alarm[2] += delta;
           } else {
