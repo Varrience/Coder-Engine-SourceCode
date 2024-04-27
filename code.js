@@ -2100,7 +2100,7 @@ window.preload = function () {
       "OPPONENT": [Stay(240), Stay(280), Stay(320), Stay(360), Stay(240), Stay(280), Stay(320), Stay(360)],
     };
     var lady = createSprite(260, 270);
-    var logo = loadImage("https://cdn.discordapp.com/attachments/974444449834864691/1003412631329189888/Screenshot_74-removebg-preview.png");
+    var logo = loadImage("assets/fnfIcon.png");
     lady.setAnimation("lady2");
     lady.frameDelay = 0.5;
     lady.scale = 0.85;
