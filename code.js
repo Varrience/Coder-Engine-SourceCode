@@ -2249,7 +2249,7 @@ window.preload = function () {
           camera.y = 200;
           lady.display();
           if (logo) {
-            image(logo, 0, -20, 222 + Math.sin(alarm[2] / rate) * 10, 222 + Math.sin(alarm[2] / rate) * 10);
+            image(logo, 0, -20, 180 + Math.sin(alarm[2] / rate) * 10, 180 + Math.sin(alarm[2] / rate) * 10);
           }
           if (alarm[2] < rate / 2) {
             alarm[2] += delta;
